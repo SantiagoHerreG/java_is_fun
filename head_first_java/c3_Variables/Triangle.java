@@ -15,6 +15,8 @@ class Triangle {
       x++;
     }
     int y = x;
+    String conc = "letters + " + y;
+    System.out.print(conc);
     x = 27;
     Triangle t5 = ta[2];
     ta[2].area = 343;
